@@ -4,8 +4,8 @@ import { ExternalLink, Eye } from 'lucide-react';
 import { projects, categories } from '../data/projects';
 
 export default function Portfolio() {
-  // Filter to show only featured projects
-  const featuredProjects = projects.filter(project => project.featured);
+  // Filter to show only 3 featured projects
+  const featuredProjects = projects.filter(project => project.featured).slice(0, 3);
 
   return (
     <section id="portfolio" className="py-20 bg-gray-50">
@@ -24,23 +24,6 @@ export default function Portfolio() {
             in creating beautiful, functional spaces across various sectors.
           </p>
         </div>
-
-        {/* Category Filter */}
-        <div className="flex flex-wrap justify-center gap-4 mb-12">
-          {categories.map((category) => (
-            <button
-              key={category}
-              className={`px-6 py-3 rounded-full font-medium transition-all duration-300 ${
-                category === 'All'
-                  ? 'bg-amber-600 text-white shadow-lg'
-                  : 'bg-white text-gray-700 hover:bg-amber-50 hover:text-amber-600 border border-gray-200'
-              }`}
-            >
-              {category}
-            </button>
-          ))}
-        </div>
-
         {/* Projects Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {featuredProjects.map((project) => (

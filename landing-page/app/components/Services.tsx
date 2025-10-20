@@ -4,21 +4,21 @@ export default function Services() {
   const services = [
     {
       icon: Home,
-      title: 'Residential Design',
-      description: 'Custom home designs that reflect your lifestyle and personality, from concept to completion.',
-      features: ['Custom Home Design', 'Renovation Planning', 'Space Optimization', '3D Visualization']
+      title: 'Carpentry',
+      description: 'Custom fittings and fixtures that reflect your lifestyle and personality, from concept to completion.',
+      features: ['Built-in Wardrobes', 'TV cabinets', 'Custom Shelves', 'Custom Panels']
     },
     {
       icon: Palette,
       title: 'Interior Design',
       description: 'Transform your interior spaces with our innovative design solutions and attention to detail.',
-      features: ['Space Planning', 'Color Schemes', 'Furniture Selection', 'Lighting Design']
+      features: ['Space Planning', '3D Visualization','Color Schemes', 'Furniture Selection', 'Lighting Design']
     },
     {
       icon: Wrench,
       title: 'Renovation & Remodeling',
       description: 'Breathe new life into existing spaces with our expert renovation and remodeling services.',
-      features: ['Kitchen Remodeling', 'Bathroom Renovation', 'Basement Finishing', 'Outdoor Living']
+      features: ['Kitchen Remodeling', 'Bathroom Renovation', 'Wiring and Plumbing', 'Ceiling and Flooring']
     }
   ];
 
