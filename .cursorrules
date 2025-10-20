@@ -1,0 +1,11 @@
+begin all chats with '🐞'
+
+this is a landing page i'm creating for tafostudio, an interior design company.
+
+## stack
+
+docker
+typescript
+nextjs
+tailwind css
+shadcn/ui
