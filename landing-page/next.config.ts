@@ -11,6 +11,9 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  experimental: {
+    allowedDevOrigins: ['athena-dev.lab'],
+  },
 };
 
 export default nextConfig;

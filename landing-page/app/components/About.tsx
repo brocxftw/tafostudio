@@ -3,10 +3,8 @@ import { Award, Users, Calendar, Target } from 'lucide-react';
 
 export default function About() {
   const stats = [
-    { number: '500+', label: 'Projects Completed', icon: Award },
-    { number: '15+', label: 'Years Experience', icon: Calendar },
+    { number: '50+', label: 'Projects Completed', icon: Award },
     { number: '200+', label: 'Happy Clients', icon: Users },
-    { number: '50+', label: 'Awards Won', icon: Target },
   ];
 
   return (
@@ -26,7 +24,7 @@ export default function About() {
             </div>
             
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              With over 15 years of experience in architecture and interior design, we specialize in 
+              With years of experience in architecture and interior design, we specialize in 
               creating innovative spaces that perfectly balance aesthetics, functionality, and sustainability. 
               Our team of passionate designers and architects work closely with clients to bring their 
               vision to life.
@@ -62,18 +60,6 @@ export default function About() {
               />
             </div>
             
-            {/* Floating Card */}
-            <div className="absolute -bottom-8 -left-8 bg-white p-6 rounded-xl shadow-xl">
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
-                  <Award className="w-6 h-6 text-[#4A80E0]" />
-                </div>
-                <div>
-                  <div className="text-2xl font-bold text-gray-900">15+</div>
-                  <div className="text-sm text-gray-600">Years Experience</div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>

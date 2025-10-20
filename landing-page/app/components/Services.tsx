@@ -9,12 +9,6 @@ export default function Services() {
       features: ['Custom Home Design', 'Renovation Planning', 'Space Optimization', '3D Visualization']
     },
     {
-      icon: Building2,
-      title: 'Commercial Architecture',
-      description: 'Professional commercial spaces designed for functionality, brand identity, and user experience.',
-      features: ['Office Buildings', 'Retail Spaces', 'Restaurants', 'Mixed-Use Developments']
-    },
-    {
       icon: Palette,
       title: 'Interior Design',
       description: 'Transform your interior spaces with our innovative design solutions and attention to detail.',
@@ -25,18 +19,6 @@ export default function Services() {
       title: 'Renovation & Remodeling',
       description: 'Breathe new life into existing spaces with our expert renovation and remodeling services.',
       features: ['Kitchen Remodeling', 'Bathroom Renovation', 'Basement Finishing', 'Outdoor Living']
-    },
-    {
-      icon: Lightbulb,
-      title: 'Sustainable Design',
-      description: 'Eco-friendly design solutions that reduce environmental impact while maintaining beauty.',
-      features: ['Green Building', 'Energy Efficiency', 'Sustainable Materials', 'LEED Certification']
-    },
-    {
-      icon: Shield,
-      title: 'Project Management',
-      description: 'Complete project oversight from initial concept through final construction and delivery.',
-      features: ['Timeline Management', 'Budget Control', 'Quality Assurance', 'Vendor Coordination']
     }
   ];
 
